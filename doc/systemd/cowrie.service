@@ -3,7 +3,7 @@ Description=Cowrie SSH and Telnet Honeypot
 Documentation=https://github.com/micheloosterhof/cowrie
 After=network.target
 #Wants=syslog.target
-Wants=mysql.service
+#Wants=mysql.service
 
 [Service]
 Type=forking
